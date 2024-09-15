@@ -1,0 +1,122 @@
+/* custom-styles.css */
+
+/* Global styling */
+body {
+    background-color: #343a40; /* Dark background */
+    font-family: 'Arial', sans-serif; /* Specify a common font family */
+    color: #fff; /* White text color */
+}
+
+/* input box */
+.Select-control {
+    background-color: black;
+}
+
+
+/* changes the text color of input box */
+.Select-value-label {
+    color: white !important;
+}
+
+.Select--single > .Select-control .Select-value, .Select-placeholder {
+    border: 1px solid grey;
+    border-radius: 4px;
+}
+
+
+/* dropdown menu options */
+.VirtualizedSelectOption {
+    background-color: black;
+    color: white;
+ }
+
+ /* dropdown menu hover effect */
+.VirtualizedSelectFocusedOption {
+    background-color: black;
+    opacity: .7;
+}
+
+
+/* border on focus - default is blue
+ * shadow box around input box.  default is blue
+ */
+.is-focused:not(.is-open) > .Select-control {
+  border-color: var(--primary);
+  box-shadow: none;
+}
+
+
+/* this colors the input box text and x  of multi dropdown*/
+.Select--multi .Select-value {
+  color: white;
+}
+
+
+
+/* Style for the plus sign button */
+.custom-plus-button {
+    padding: 2px 10px; /* Increase padding for the button */
+    font-size: 16px; /* Font size */
+    background-color: #495057; /* Dark blue color for the button */
+    color: #fff; /* White text color */
+    border: none; /* Remove button border */
+    border-radius: 4px; /* Add a slight border-radius */
+}
+
+/* Style for the plus sign button */
+.custom-save-button {
+    padding: 2px 10px; /* Increase padding for the button */
+    font-size: 16px; /* Font size */
+    background-color: #495057; /* Dark blue color for the button */
+    color: #fff; /* White text color */
+    border: none; /* Remove button border */
+    border-radius: 4px; /* Add a slight border-radius */
+}
+
+/* Dropdown styling */
+.Select-menu-outer {
+    display: block !important;
+}
+
+/* Dash table styling */
+.dash-table-container {
+    font-size: 14px; /* Adjust font size for the table */
+}
+
+/* Input field styling */
+input {
+    padding: 8px; /* Add padding to input fields */
+    border-radius: 4px; /* Add border-radius to input fields */
+    border: 1px solid #495057; /* Dark gray border */
+    color: #495057; /* Dark gray text color */
+}
+
+/* Tabs styling */
+.dash-tabs {
+    background-color: #343a40; /* Dark background for the tabs */
+    color: #fff; /* White text color for the tabs */
+}
+
+/* Tab content styling */
+.dash-tab-content {
+    padding: 20px; /* Add padding to tab content */
+    background-color: #495057; /* Dark background for tab content */
+}
+
+/* Table header styling */
+.dash-table th {
+    background-color: #343a40; /* Dark background for table headers */
+    color: #fff; /* White text color for table headers */
+}
+
+/* Table cell styling */
+.dash-table td {
+    border: 1px solid #495057; /* Dark gray border for table cells */
+    padding: 10px; /* Add padding to table cells */
+}
+
+/* Graph styling */
+.dash-graph {
+    border: 1px solid #495057; /* Dark gray border for graphs */
+    border-radius: 4px; /* Add border-radius to graphs */
+}
