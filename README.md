@@ -2,7 +2,7 @@
 
 ## Overview
 
-This project is a personal endeavor aimed at creating a data visualization dashboard for tracking spending and mortgage repayments. It serves as a practical exercise to gain hands-on experience with Dash building.
+This project is a personal endeavour aimed at creating a data visualisation dashboard for tracking spending and mortgage repayments. It serves as a practical exercise to gain hands-on experience with Dash building.
 
 ## Key Features
 
